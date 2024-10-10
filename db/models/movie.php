@@ -6,10 +6,10 @@ class Movie{
     //Dichiarazione delle istanze
     public $name;
     public $director;
-    public $genre;          
-    public $year;
+    public $genre;         
+    private $year;
     public $country;
-    public $vote = null;
+    private $vote = null;
 
 
     //Definito costruttore per l'anno
